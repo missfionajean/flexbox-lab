@@ -11,6 +11,8 @@ body {
 nav {
 	background-color: white;
 	padding: 8px 16px;
+	display: flex;
+	justify-content: space-between;
 }
 
 p {
@@ -22,6 +24,9 @@ section {
 	background-color: black;
 	color: white;
 	padding: 24px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 h1,
@@ -75,6 +80,18 @@ nav button {
 
 .card-footer * {
 	margin-top: 8px;
+}
+
+#destinations,
+#actions {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+#destinations p:hover,
+#destinations button:hover {
+	cursor: pointer;
 }
 
 #subnav {
