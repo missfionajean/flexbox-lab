@@ -91,8 +91,15 @@ nav button {
 }
 
 #destinations p:hover,
-#destinations button:hover {
+#actions p:hover,
+#trending p:hover {
 	cursor: pointer;
+	color: #ea4c89;
+}
+
+#actions button:hover {
+    cursor: pointer;
+    background-color: #d0185f;
 }
 
 #subnav {
