@@ -57,6 +57,10 @@ input {
 main {
 	background-color: white;
 	padding: 32px 72px;
+	display: flex;
+	gap: 32px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 nav button {
@@ -76,6 +80,8 @@ nav button {
 }
 
 .card-footer {
+    display: flex;
+    justify-content: space-between;
 	font-size: 14px;
 }
 
@@ -98,15 +104,28 @@ nav button {
 }
 
 #actions button:hover {
-    cursor: pointer;
-    background-color: #d0185f;
+	cursor: pointer;
+	background-color: #d0185f;
 }
 
 #subnav {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 	padding: 32px 72px 0;
 	background-color: white;
+}
+
+#subnav :hover {
+	border-radius: 8px;
+	padding: 10px 16px;
+	border: 1px solid #d0185f;
+    color: #d0185f;
+	background-color: white;
+    cursor: pointer;
+}
+
+.img-placeholder:hover {
+    cursor: pointer;
 }
 
 #subnav button {
